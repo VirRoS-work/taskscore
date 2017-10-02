@@ -5,13 +5,13 @@ public class Contact {
     private int id;
     private String firstName;
     private String lastName;
-    private String foneNumber;
+    private String phoneNumber;
 
     public Contact(int id, String firstName, String lastName, String foneNumber) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
-        this.foneNumber = foneNumber;
+        this.phoneNumber = foneNumber;
     }
 
     public int getId() {
@@ -35,10 +35,10 @@ public class Contact {
     }
 
     public String getFoneNumber() {
-        return foneNumber;
+        return phoneNumber;
     }
 
     public void setFoneNumber(String foneNumber) {
-        this.foneNumber = foneNumber;
+        this.phoneNumber = foneNumber;
     }
 }
